@@ -1,0 +1,21 @@
+body{
+    background-image: url("/imagen/ulitmofondo.jpg");
+    background-size:  cover cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color:  rgba(89, 216, 214, 0.875);
+}
+.pala{
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30pt;
+    margin: 100px 0px 0px 620px;
+}
+img{
+    height: auto;
+    width: 100px;
+    border-radius: 5px;
+    margin: 40px 0px 0px 670px;
+}

@@ -1,0 +1,40 @@
+
+body{
+    display: flex;
+    background: url("/imagen/fondo2.jpg") ;
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(6px);
+}
+.imagen2{
+    display: flex;
+    height: 670px;
+    width: 120%;
+    margin: 20px 20px 20px 30px;
+}
+
+.pala{
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: -680px 50px auto;
+}
+
+.pala p{
+    padding: 10px;
+    font-size: 12pt;    
+}
+.cora img{
+    display: flex;
+    width: 150px;
+    height: auto;
+    margin: 300px 0px 0px 1070px;
+    transition: 1s;
+}
+
+.cora img:hover{
+    transform: scale(1.3);
+    
+}

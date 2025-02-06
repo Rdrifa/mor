@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    
+}
+
+body{
+    display: flex;
+    background-color: rgba(164, 106, 185, 0.496);
+    background-image: url("/imagen/fo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.palabras{
+    width: 50% ;
+    display: inline;
+    margin: 0px 0px 0px 400px ;
+}
+p
+{
+    color: white;
+    margin: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 25pt;
+    text-align: center;
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.carta{
+    display: flex;
+    width: 300px;
+    height: auto;
+    margin: 450px 0px 0px -530px; 
+    transition: 0.8s;
+    
+}
+
+.carta:hover{
+    transform: scale(1.6);
+}
